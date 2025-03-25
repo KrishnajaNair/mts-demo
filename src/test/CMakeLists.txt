@@ -15,4 +15,5 @@ target_link_libraries(${PROJECT_NAME} mtsc::mtsc)
 add_test (NAME ${PROJECT_NAME} COMMAND ${PROJECT_NAME} WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
 # Visual Studio folders
+# abcd
 set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER "Tests")
