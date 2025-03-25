@@ -2,6 +2,7 @@
 # Recent version of CMake that has server mode enabled (at least 3.8).
 cmake_minimum_required (VERSION 3.8)
 
+
 ##############################################
 # CMake policy
 # Use the NEW behavior for this policy and set the VERSION in the project() command
