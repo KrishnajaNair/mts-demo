@@ -1,6 +1,7 @@
 /**
  * @file encoding.h
  * @brief Text encoding C interfaces (these interfaces are not implemented currently in C).
+ * @brief Text encoding C interfaces (these interfaces are not implemented currently in C).
  */
 #pragma once
 
