@@ -97,7 +97,7 @@ mts_utility_encoding_convert_to_utf8(const uint8_t *buffer, size_t size, mts_tex
  * @param result_size A pointer to a variable that provides the size of the caller-provided buffer pointed to by the @ref result parameter, in bytes.
  * @param result_size When the function returns, this variable contains the size of the data copied to @ref result.
  * @param error_details Optional error details.
- * @return MTS error code.
+ * @return MTS error code update.    
  *
  * @remarks If the buffer specified by @ref result parameter is not large enough to hold the data,
  * @remarks the function returns @ref mts_error_no_buffer_space and stores the required buffer size in the variable pointed to by @ref result_size.
