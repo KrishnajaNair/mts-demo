@@ -102,6 +102,7 @@ mts_utility_encoding_convert_to_utf8(const uint8_t *buffer, size_t size, mts_tex
  * @remarks If the buffer specified by @ref result parameter is not large enough to hold the data,
  * @remarks the function returns @ref mts_error_no_buffer_space and stores the required buffer size in the variable pointed to by @ref result_size.
  * @remarks In this case, the contents of the @ref result buffer is undefined.
+ * * @remarks In this case, the contents of the @ref result buffer is undefined.
  */
 MTS_SDK_SYMBOL_EXPORT
 mts_error_t
