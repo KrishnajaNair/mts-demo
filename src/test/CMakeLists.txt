@@ -12,6 +12,7 @@ target_compile_options(${PROJECT_NAME} PRIVATE
 target_link_libraries(${PROJECT_NAME} mtsc::mtsc)
 
 # For C language we cannot use Gtest
+# For C language we cannot use Gtest
 add_test (NAME ${PROJECT_NAME} COMMAND ${PROJECT_NAME} WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
 # Visual Studio folders
