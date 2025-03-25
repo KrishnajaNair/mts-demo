@@ -27,6 +27,7 @@
 #include <mts/runtime/runtime.h>
 #include <mts/runtime/string.h>
 #include <mts/runtime/types.h>
+#include <string>
 
 int main()
 {
