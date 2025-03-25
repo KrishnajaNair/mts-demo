@@ -22,10 +22,8 @@ typedef enum mts_text_encoding_t
     mts_text_encoding_utf32_be,          //!< UTF-32 using the big endian byte order
     mts_text_encoding_utf16_le,          //!< UTF-16 using the little endian byte order
     mts_text_encoding_utf16_be,          //!< UTF-16 using the big endian byte order
-    mts_text_encoding_utf8,              //!< UTF-8 format
     mts_text_encoding_ansi,              //!< ASCII (7-bit) character set
-    mts_text_encoding_iso_8859_1,        //!< ISO/IEC 8859-1:1998 encoding
-    mts_text_encoding_japanese_shift_jis //!< Shift JIS (Shift Japanese Industrial Standards) encoding
+    mts_text_encoding_iso_8859_1
 } mts_text_encoding_t;
 
 /**
